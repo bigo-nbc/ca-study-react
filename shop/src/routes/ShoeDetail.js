@@ -22,7 +22,7 @@ function ShoeDetail(props) {
             return shoe.id === Number(id)
         }
     );
-    
+       
     if (shoeData == null){
         return <div>Shoe not found</div>
     }
